@@ -1,0 +1,297 @@
+/* rubik-500 - latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/rubik-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/rubik-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+*{
+  box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+}
+body{
+  margin: 0px;
+}
+
+.container{
+  width: 1260px;
+  padding: 0px 30px;
+  margin: 0px auto;
+}
+header{
+  background: #F6F6F9;
+}
+.inner{
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.innerimg{
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 6px;
+  width: 320px;
+  height: 40px;
+}
+
+.spans{
+  display: flex;
+}
+
+.spanp{
+  margin: 0 10px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 19px;
+}
+.currency{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #285193;
+}
+
+
+.buttons{
+  margin-left: auto;
+}
+p{
+  margin: 0;
+}
+.butlink{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 10px;
+  padding-left: 7px;
+  text-decoration: none;
+}
+
+.butbut{
+  border:0;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.lupa{
+  margin-right: 15px;
+  cursor: pointer;
+}
+.ru{
+  cursor: pointer;
+  margin-right: 15px;
+
+}
+.ruimg{
+  padding: 3px 0;
+  margin-right: 5px; 
+  border-radius: 50%;
+}
+
+.butimg{
+  margin-right: 7px;
+  padding-bottom: 3px;
+  align-items: center;
+}
+
+
+.navbar{
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
+.navb{
+  display: flex;
+}
+
+.navbitem{
+  display: flex;
+  list-style: none;
+  width: 1200px;
+  justify-content: space-evenly ;
+  padding-left: 0;
+}
+
+.navlink{
+  text-decoration: none;
+  color: #515151;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 23px;
+
+}
+
+.headerend{
+  border: 1px solid #E0E0E0;
+  margin-bottom: 23px;
+}
+
+
+.adv{
+  background: #F6F6F9;
+  border-radius: 5px;
+  align-items: center;
+}
+
+
+h1{
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    position: absolute;
+}
+
+.covidimg{
+  display: flex;
+}
+
+
+.advul{
+  align-items: center;
+  display: flex;
+  padding: 30px 35px;
+  list-style: none;
+  /* justify-content: space-evenly; */
+}
+
+.first{
+  width: 220px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  margin-right: 50px;
+}
+
+.covidimg{
+  align-items: center;
+  margin-right: 20px;
+}
+.advli{
+  display: flex;
+  align-items: center;
+}
+
+.second{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #DB0000;
+}
+.third{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #05B135;
+}
+
+.fourth{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.zamarochka{
+  margin-right: 87px;
+}
+.numbers{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+
+
+
+.heroul{
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.herli{
+  margin: 18px auto;
+}
+.herotittle{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 20px;
+  width: 380px;
+  color: #202020;
+  cursor: pointer;
+}
+
+.herimg{
+  width: 386px;
+  height: 190px;
+  cursor: pointer;
+}
+.line{
+  margin-right: 30px;
+  width: 2px;
+  height: 60px;
+  background: #EB5569;
+}
+.line-2{
+  margin-right: 30px;
+  width: 2px;
+  height: 49px;
+  background: #F4CCD1;
+}
+
+.time
+{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+  color: #6B6D97;
+
+}
